@@ -13,6 +13,7 @@
 		1401C9E121613A9C00D8B5FE /* LOTValueCallback.h in Headers */ = {isa = PBXBuildFile; fileRef = 62A62B481FE48220001A2C2F /* LOTValueCallback.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2DBA19324CDD83B5F0F115B8 /* LOTAnimationView_Compat.h in Headers */ = {isa = PBXBuildFile; fileRef = 2DBA16351B4FA408937A16CE /* LOTAnimationView_Compat.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		3073F50B2BC921D0004F4C47 /* PrivacyInfo.xcprivacy.xml in Resources */ = {isa = PBXBuildFile; fileRef = 3073F50A2BC921AC004F4C47 /* PrivacyInfo.xcprivacy.xml */; };
+		3073F50C2BC9258F004F4C47 /* PrivacyInfo.xcprivacy.xml in CopyFiles */ = {isa = PBXBuildFile; fileRef = 3073F50A2BC921AC004F4C47 /* PrivacyInfo.xcprivacy.xml */; };
 		48183C9C1E54E20B0039F121 /* CGGeometry+LOTAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 48183C9A1E54E20B0039F121 /* CGGeometry+LOTAdditions.h */; };
 		48183C9D1E54E20B0039F121 /* CGGeometry+LOTAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 48183C9A1E54E20B0039F121 /* CGGeometry+LOTAdditions.h */; };
 		48183C9E1E54E20B0039F121 /* CGGeometry+LOTAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 48183C9B1E54E20B0039F121 /* CGGeometry+LOTAdditions.m */; };
@@ -533,6 +534,7 @@
 			dstPath = include/Lottie;
 			dstSubfolderSpec = 16;
 			files = (
+				3073F50C2BC9258F004F4C47 /* PrivacyInfo.xcprivacy.xml in CopyFiles */,
 				6220C9152007E61800D47989 /* LOTInterpolatorCallback.h in CopyFiles */,
 				6220C9142007E61300D47989 /* LOTBlockCallback.h in CopyFiles */,
 				62ACB6BB200028D6006EDE2D /* LOTValueDelegate.h in CopyFiles */,
