@@ -12,8 +12,8 @@
 		1401C9E021613A9700D8B5FE /* LOTInterpolatorCallback.h in Headers */ = {isa = PBXBuildFile; fileRef = 62ACB6C3200030BB006EDE2D /* LOTInterpolatorCallback.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1401C9E121613A9C00D8B5FE /* LOTValueCallback.h in Headers */ = {isa = PBXBuildFile; fileRef = 62A62B481FE48220001A2C2F /* LOTValueCallback.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2DBA19324CDD83B5F0F115B8 /* LOTAnimationView_Compat.h in Headers */ = {isa = PBXBuildFile; fileRef = 2DBA16351B4FA408937A16CE /* LOTAnimationView_Compat.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		3073F50B2BC921D0004F4C47 /* PrivacyInfo.xcprivacy.xml in Resources */ = {isa = PBXBuildFile; fileRef = 3073F50A2BC921AC004F4C47 /* PrivacyInfo.xcprivacy.xml */; };
-		3073F50C2BC9258F004F4C47 /* PrivacyInfo.xcprivacy.xml in CopyFiles */ = {isa = PBXBuildFile; fileRef = 3073F50A2BC921AC004F4C47 /* PrivacyInfo.xcprivacy.xml */; };
+		30D69CC32BC927C9006F541B /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 30D69CC12BC927BE006F541B /* PrivacyInfo.xcprivacy */; };
+		30D69CC42BC927D1006F541B /* PrivacyInfo.xcprivacy in CopyFiles */ = {isa = PBXBuildFile; fileRef = 30D69CC12BC927BE006F541B /* PrivacyInfo.xcprivacy */; };
 		48183C9C1E54E20B0039F121 /* CGGeometry+LOTAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 48183C9A1E54E20B0039F121 /* CGGeometry+LOTAdditions.h */; };
 		48183C9D1E54E20B0039F121 /* CGGeometry+LOTAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 48183C9A1E54E20B0039F121 /* CGGeometry+LOTAdditions.h */; };
 		48183C9E1E54E20B0039F121 /* CGGeometry+LOTAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 48183C9B1E54E20B0039F121 /* CGGeometry+LOTAdditions.m */; };
@@ -534,7 +534,7 @@
 			dstPath = include/Lottie;
 			dstSubfolderSpec = 16;
 			files = (
-				3073F50C2BC9258F004F4C47 /* PrivacyInfo.xcprivacy.xml in CopyFiles */,
+				30D69CC42BC927D1006F541B /* PrivacyInfo.xcprivacy in CopyFiles */,
 				6220C9152007E61800D47989 /* LOTInterpolatorCallback.h in CopyFiles */,
 				6220C9142007E61300D47989 /* LOTBlockCallback.h in CopyFiles */,
 				62ACB6BB200028D6006EDE2D /* LOTValueDelegate.h in CopyFiles */,
@@ -556,7 +556,7 @@
 
 /* Begin PBXFileReference section */
 		2DBA16351B4FA408937A16CE /* LOTAnimationView_Compat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LOTAnimationView_Compat.h; sourceTree = "<group>"; };
-		3073F50A2BC921AC004F4C47 /* PrivacyInfo.xcprivacy.xml */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = PrivacyInfo.xcprivacy.xml; sourceTree = "<group>"; };
+		30D69CC12BC927BE006F541B /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
 		48183C9A1E54E20B0039F121 /* CGGeometry+LOTAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CGGeometry+LOTAdditions.h"; sourceTree = "<group>"; };
 		48183C9B1E54E20B0039F121 /* CGGeometry+LOTAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CGGeometry+LOTAdditions.m"; sourceTree = "<group>"; };
 		481A4A3C1E4A7885003CF62B /* LOTHelpers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LOTHelpers.h; sourceTree = "<group>"; };
@@ -958,7 +958,7 @@
 		62CA59BA1E3C173B002D7188 /* Lottie */ = {
 			isa = PBXGroup;
 			children = (
-				3073F50A2BC921AC004F4C47 /* PrivacyInfo.xcprivacy.xml */,
+				30D69CC12BC927BE006F541B /* PrivacyInfo.xcprivacy */,
 				62BFC2CF1F1428E80068A342 /* RenderSystem */,
 				481A4AD71E4A78A0003CF62B /* MacCompatibility */,
 				481A4A171E4A7885003CF62B /* AnimatableLayers */,
@@ -1350,7 +1350,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3073F50B2BC921D0004F4C47 /* PrivacyInfo.xcprivacy.xml in Resources */,
+				30D69CC32BC927C9006F541B /* PrivacyInfo.xcprivacy in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
